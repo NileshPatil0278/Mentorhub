@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+          
+            background: linear-gradient(to bottom, #9400D3, #4B0082);
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: #b145ef;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            width: 100%;
+           
+        }
+
+        main {
+            display: flex;
+            width: 100%;
+            justify-content: space-around;
+            align-items: flex-start;
+            flex-wrap: wrap;
+        }
+
+        nav {
+            display:flexbox;
+            flex-direction:column;
+            align-items: flex-end;
+            background-color: #b451e6;
+            overflow:visible;
+            padding: 20px;
+            width: 100px; /* Adjust the width as needed */
+            transition: width 0.3s; /* Added transition for dynamic effect */
+           
+        }
+
+       nav:hover {
+            width: 150px; /* Adjust the expanded width on hover*/
+           
+        } 
+       
+        
+
+        div {
+            margin: 10px;
+            text-align: left;
+            max-width: 300px;
+            width: 100%;
+            background-color: #fff;
+           
+            border-radius: 10px;
+            box-shadow: 0 4px 4px rgb(33, 32, 32);
+            padding: 20px;
+            transition: box-shadow 0.3s;
+        }
+
+        div:hover {
+            box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
+            border-color: cornflowerblue;
+        }
+
+        div h2 {
+            color: #3498db;
+        }
+
+        div p {
+            margin-bottom: 15px;
+        }
+
+        a {
+            display: block;
+            text-decoration: none;
+            color: #5dd4f1;
+            padding: 10px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        a:hover {
+            background-color: #2980b9;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to Mentor Hub</h1>
+    </header>
+
+    <main>
+        <nav>
+            <div>
+                <a href="admin_1_Login.html">Admin</a>
+            </div>
+            <div>
+                <a href="stud_1_login.html">Student </a>
+            </div>
+            <div>
+                <a href="men_1_login.html">Mentor</a>
+            </div>
+        </nav>
+
+        <div>
+        <h2>Additional Information</h2>
+        <p>
+            Mentorship is a valuable resource for students as it offers guidance, support, and insights into various fields of study and career paths.
+        </p>
+        <p>
+            Through mentorship, students can gain valuable skills, expand their networks, and make informed decisions about their academic and professional pursuits.
+        </p>
+    </div>
+
+    <div>
+        <h2>More Details</h2>
+        <p>
+            Enhance your mentoring experience with:
+        </p>
+        <ul>
+            <li>Personalized Matching: Connect with mentors or students based on shared interests, goals, and backgrounds.</li>
+            <li>Progress Tracking: Monitor and track your mentorship journey, set goals, and measure achievements.</li>
+            <li>Resource Sharing: Access a wealth of resources including articles, videos, and tools to support your learning and growth.</li>
+        </ul>
+    </div>
+       
+    </main>
+
+</body>
+</html>
+
+
+

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Login Page</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(135deg, #d9e3ea, #6c5ce7);
+        }
+
+        container {
+            text-align: center;
+            color: #fff;
+        }
+
+        h1 {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-bottom: 20px;
+        }
+
+        form {
+            background: linear-gradient(180deg, #fff, #f0f0f0);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            transition: box-shadow 0.3s;
+        }
+
+        form:hover {
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+        }
+
+        label {
+            display: block;
+            font-size: 16px;
+            color: #333;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+            font-size: 14px;
+        }
+
+        button {
+            background: linear-gradient(135deg, #3498db, #6c5ce7);
+            color: #fff;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        button:hover {
+            background: linear-gradient(135deg, #5f27cd, #7d3c98);
+        }
+
+        footer {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #ddd;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Admin Login</h1>
+        <form action="Admin_login_Ser" method="post">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username">
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password">
+
+            <button type="submit">Login</button>
+        </form>
+
+        
+    </div>
+
+</body>
+</html>
+
+
+
+
+
+
